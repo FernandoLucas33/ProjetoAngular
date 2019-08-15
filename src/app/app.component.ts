@@ -20,6 +20,6 @@ export class AppComponent {
     { tipo: 'DESPESA', descricao: 'Aluguel', dataVencimento: '10/07/2017',
       dataPagamento: '09/07/2017', valor: 1750, pessoa: 'Casa Nova Imóveis' },
     { tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
-      dataPagamento: null, valor: 180, pessoa: 'Academia Top' }
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top' } //teste commit
   ];
 }
