@@ -12,6 +12,9 @@ label{
     width:  1170px;
     margin: 0 auto;
   }
+
+}
+
 .col-valor-header{
   width: 120px;
 }
@@ -25,5 +28,7 @@ label{
 .col-data-content{
   text-align: center;
 }
+.col-acoes{
+  width: 90px;
+  text-align: center;
 }
-
