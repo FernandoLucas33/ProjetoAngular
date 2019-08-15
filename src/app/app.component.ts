@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  lancamento = [
+  lancamentos = [
     { tipo: 'DESPESA', descricao: 'Compra de pão', dataVencimento: '30/06/2017',
       dataPagamento: null, valor: 4.55, pessoa: 'Padaria do José' },
     { tipo: 'RECEITA', descricao: 'Venda de software', dataVencimento: '10/06/2017',
@@ -20,6 +20,6 @@ export class AppComponent {
     { tipo: 'DESPESA', descricao: 'Aluguel', dataVencimento: '10/07/2017',
       dataPagamento: '09/07/2017', valor: 1750, pessoa: 'Casa Nova Imóveis' },
     { tipo: 'DESPESA', descricao: 'Mensalidade musculação', dataVencimento: '13/07/2017',
-      dataPagamento: null, valor: 180, pessoa: 'Academia Top' } //teste commit
+      dataPagamento: null, valor: 180, pessoa: 'Academia Top' }
   ];
 }
