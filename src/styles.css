@@ -8,7 +8,7 @@ label{
   font-weight: bold;
 }
 @media (min-width: 1200px){
-  .conteiner{
+  .container{
     width:  1170px;
     margin: 0 auto;
   }
