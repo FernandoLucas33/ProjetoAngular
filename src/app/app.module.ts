@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import {InputTextModule} from 'primeng/components/inputtext/inputtext';
 import {ButtonModule} from 'primeng/components/button/button';
 import {TableModule} from 'primeng/components/table/table';
+import {TooltipModule} from 'primeng/tooltip';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,7 +18,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     InputTextModule,
     ButtonModule,
-    TableModule
+    TableModule,
+    TooltipModule
 
   ],
   providers: [],
