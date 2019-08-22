@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NgModule } from '@angular/core';
 
 import {InputTextModule} from 'primeng/components/inputtext/inputtext';
@@ -6,6 +7,7 @@ import {ButtonModule} from 'primeng/components/button/button';
 import {TableModule} from 'primeng/components/table/table';
 import {TooltipModule} from 'primeng/tooltip';
 import { InputTextareaModule } from 'primeng/components/inputtextarea/inputtextarea';
+import {CalendarModule} from 'primeng/calendar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -25,12 +27,14 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     InputTextModule,
     ButtonModule,
     TableModule,
     TooltipModule,
-    InputTextareaModule
+    InputTextareaModule,
+    CalendarModule
 
   ],
   providers: [],
