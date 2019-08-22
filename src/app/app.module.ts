@@ -7,7 +7,11 @@ import {ButtonModule} from 'primeng/components/button/button';
 import {TableModule} from 'primeng/components/table/table';
 import {TooltipModule} from 'primeng/tooltip';
 import { InputTextareaModule } from 'primeng/components/inputtextarea/inputtextarea';
-import {CalendarModule} from 'primeng/calendar';
+import {CalendarModule} from 'primeng/components/calendar/calendar';
+import { SelectButtonModule  } from 'primeng/components/selectbutton/selectbutton';
+import { DropdownModule } from 'primeng/components/dropdown/dropdown';
+
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,7 +38,10 @@ import { LancamentoCadastroComponent } from './lancamento-cadastro/lancamento-ca
     TableModule,
     TooltipModule,
     InputTextareaModule,
-    CalendarModule
+    CalendarModule,
+    SelectButtonModule,
+    DropdownModule,
+    CurrencyMaskModule
 
   ],
   providers: [],
